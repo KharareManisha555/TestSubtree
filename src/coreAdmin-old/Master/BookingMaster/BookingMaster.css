@@ -1,0 +1,193 @@
+.bookingMasterContainer{
+	background-color: #eee;
+	margin-bottom: 50px;
+}
+.pickupType{
+	margin-top: 25px;
+	background-color: var(--white-color);
+	
+}
+.pickupTypeCar{
+
+	height: 500px;
+}
+.hideUntilClick{
+	display: none;
+}
+.showDivOnClick{
+	display: block;
+}
+.customNavBM>li>a{
+	font-size: 15px;
+	padding: 16px 47px;
+    border-left:1px solid #eee;
+    border-radius: 0px;
+    margin-right: 0px;
+}
+.customNavBM>li.active>a, .customNavBM>li.active>a:focus, .customNavBM>li.active>a:hover{
+	color: var(--white-color);
+    cursor: default;
+    border-radius: 0px;
+    background-color: var(--blue-color);
+}
+.customTabContent{
+	padding: 25px !important;
+}
+.input-group-addon{
+     border-right: 0px !important; 
+}
+.carContainer{
+	height: 250px;
+	border:1px solid #eee;
+	padding: 15px !important;
+
+}
+.carContainer img{
+	height: 120px;
+}
+.customLabelCar{
+	font-size: 18px;
+	padding-left: 15px !important;
+	padding-top: 15px !important;
+	padding-bottom: 15px !important;
+	margin-bottom: 0px;
+	border-bottom: 1px solid #eee;
+}
+.headCar{
+	font-size: 18px;
+}
+.premiumCar{
+}
+.empContainer{
+	padding: 10px;
+	cursor: pointer;
+}
+.dateContainer{
+	border:1px solid var(--blue-color);
+	height: 100px;
+	padding-left: 10px !important;
+	padding-right:  10px !important;
+	border-right: 1px dashed var(--blue-color)!important;
+	text-align: center;
+	border-radius: 10px;
+}
+.addedDivBM{
+	height: 100px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color: #aaa;
+
+}
+.addedDivBM img{
+	height: 20px;
+	padding-top: 10%;
+	margin-top: 35px !important;
+
+}
+.listprofileEmployee{
+	text-align: center;
+	border: 1px solid var(--blue-color);
+	border-left: 0px !important;
+	border-radius: 10px;
+}
+.tripDetail{
+}
+.titleTrip{
+	padding-top: 18px;
+	font-size: 18px;
+}
+.onlyDay{
+	padding-top: 10px;
+	font-size: 14px;
+	font-weight: 100 !important;
+	margin-bottom: 0px !important;
+}
+.firstDate{
+	font-size: 30px;
+	margin-bottom: 0px !important;
+}
+.dateWith{
+	font-size: 14px;
+	font-weight: 100 !important;
+
+}
+.tripType{
+	font-weight: 100 !important;
+}
+.statusOfTrip{
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color:var(--white-color);
+	border-radius: 50px;
+	font-size: 10px;
+	background-color: #ff9300;
+}
+.singleEmployeeDetails{
+	border-bottom: 1px solid #ccc;
+
+}
+.profileImage{
+	height: 80px;
+	border: 1px solid #eee;
+	box-shadow: 2px 1px 3px 1px #eee;
+
+	margin-top: -15px;
+	border-radius: 10px;
+}
+.profileImage img{
+	height: 100%;
+	padding: 5px;
+	width: 100%;
+
+}
+.listfontED li{
+	padding-bottom: 6px;
+}
+.titleprofileTD{
+	font-size: 16px;
+	font-weight: bold;
+	color: #f00;
+}
+.rejectTrip{
+	background-color: #f00;
+	color: #fff;
+	padding:7px !important;
+	font-weight: normal;
+	font-size: 12px !important;
+}
+.acceptTrip{
+	background-color: #54ca57;
+	color: #fff;
+	font-weight: normal;
+	padding:7px !important;
+	font-size: 12px !important;
+}
+.customTextArea{
+	border-radius: 4px;
+	padding: 8px;
+}
+.approvedImg img{
+	height: 60px;
+}
+.trackCar{
+	font-size: 10px;
+	font-weight:normal;
+	background-color: #aaa !important;
+}
+.addStopDiv{
+    height: 30px;
+    border: 1px solid #aaa;
+    font-size: 14px;
+    padding-top: 4px !important;
+    border-radius: 35px;
+    background-color: var(--blue-color);
+    color:#fff;
+    cursor: pointer;
+    text-align: center;
+}
+.addStopDiv:hover {
+ box-shadow: 0 5px 10px rgba(92,141,255,.5);
+
+}
